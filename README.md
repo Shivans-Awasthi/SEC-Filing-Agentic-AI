@@ -1,3 +1,7 @@
+Here's the updated README with the necessary instructions to run `audioServer.py` before the Reflex app:
+
+---
+
 # SEC-Filing-Agentic-AI
 
 This repository contains a Python-based application that integrates speech recognition and text-to-speech functionalities with a Reflex-based web UI. It uses an external API to process user inputs and provides audio responses.
@@ -47,7 +51,7 @@ This repository contains a Python-based application that integrates speech recog
 3. Install required Python libraries:
 
    ```bash
-   pip install reflex speechrecognition pyttsx3 requests
+   pip install reflex speechrecognition pyttsx3 requests pymongo
    ```
 
 4. Add your Langflow API credentials to the constants section in the Python file:
@@ -57,6 +61,12 @@ This repository contains a Python-based application that integrates speech recog
    LANGFLOW_ID = "your-langflow-id"
    FLOW_ID = "your-flow-id"
    APPLICATION_TOKEN = "your-application-token"
+   ```
+
+5. **Run the `audioServer.py` script** to handle audio file management before starting the Reflex app:
+
+   ```bash
+   python audioServer.py
    ```
 
 ---
@@ -84,6 +94,7 @@ This repository contains a Python-based application that integrates speech recog
 
 ## File Structure
 
+- **`audioServer.py`**: Handles audio file streaming and retrieval from MongoDB.
 - **`app.py`**: Main application file containing all logic for the Reflex app.
 - **`upload.py`**: Contains logic for uploading audio files to MongoDB.
 - **Audio Files**: Temporarily saved in the root directory (deleted after processing).
@@ -98,4 +109,3 @@ This repository contains a Python-based application that integrates speech recog
 - Add error handling for better API response debugging.
 
 ---
-
