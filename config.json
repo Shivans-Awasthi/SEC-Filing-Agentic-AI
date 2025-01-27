@@ -1,0 +1,9 @@
+{
+    "BASE_API_URL": "https://api.langflow.astra.datastax.com",
+    "LANGFLOW_ID": "11eb42aa-62b5-4253-b4d8-9274d53bf26e",
+    "FLOW_ID": "a0ff48ee-bc1f-4a21-baa2-d9f7dbd55d4c",
+    "APPLICATION_TOKEN": "AstraCS:XRBvebfufuAqyQicOvkFfvsI:bd9e18e9c471c076894d02ec8806bc3d4ddcd0b27df453d15f13e157ce74abd4",
+    "MONGO_URI": "mongodb://localhost:27017/",
+    "DATABASE_NAME": "AIAudioDB"
+  }
+  
