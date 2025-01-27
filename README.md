@@ -68,10 +68,10 @@ The Langflow API integrates several critical features for the project:
    APPLICATION_TOKEN = "your-application-token"
    ```
 
-5. **Run the `audioServer.py` script** to handle audio file management before starting the Reflex app:
+5. **Run the `AudioServer.py` script** to handle audio file management before starting the Reflex app:
 
    ```bash
-   python audioServer.py
+   python AudioServer.py
    ```
 
 ## Usage
@@ -96,7 +96,7 @@ The Langflow API integrates several critical features for the project:
 ## File Structure
 
 - **`audioServer.py`**: Handles audio file streaming and retrieval from MongoDB.
-- **`app.py`**: Main application file containing all logic for the Reflex app.
+- **`AIAgent.py`**: Main application file containing all logic for the Reflex app.
 - **`upload.py`**: Contains logic for uploading audio files to MongoDB.
 - **Audio Files**: Temporarily saved in the root directory (deleted after processing).
 
