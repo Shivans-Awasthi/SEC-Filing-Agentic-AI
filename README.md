@@ -99,13 +99,3 @@ This repository contains a Python-based application that integrates speech recog
 
 ---
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
----
-
-## Contributions
-
-Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
-
