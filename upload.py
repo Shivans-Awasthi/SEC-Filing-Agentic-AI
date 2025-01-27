@@ -1,9 +1,15 @@
 import pymongo
 import gridfs
+import json
 
+with open("config.json", "r") as config_file:
+    config = json.load(config_file)
+
+MONGO_URI = config["MONGO_URI"]
+DATABASE_NAME = config["DATABASE_NAME"]
 # Connect to MongoDB Atlas
-client = pymongo.MongoClient("mongodb://localhost:27017/")
-db = client["AIAudioDB"]
+client = pymongo.MongoClient(MONGO_URI)
+db = client[DATABASE_NAME]
 
 # Create a GridFS instance
 fs = gridfs.GridFS(db)
