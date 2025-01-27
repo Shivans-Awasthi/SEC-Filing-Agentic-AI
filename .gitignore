@@ -2,4 +2,4 @@
 assets/external/
 .web
 __pycache__/
-config.json
+*.json
